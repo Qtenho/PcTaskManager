@@ -1,1 +1,9 @@
-﻿
+﻿@page "/tasks"
+@using TaskManager.Shared.Entities;
+
+<h3>Pc Tasks</h3>
+
+@code {
+    public List<PcTask>? Tasks { get; set; }
+
+}
